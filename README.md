@@ -1,36 +1,52 @@
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
+# 🗓️ Weekly Scheduler App
 
-## Getting Started
+Una aplicación para gestionar los horarios semanales de los trabajadores de forma visual y eficiente. El objetivo es dejar atrás las hojas de Excel y permitir una planificación más clara, rápida y centralizada.
 
-First, run the development server:
+## 🚀 ¿Qué hace esta app?
+
+- Muestra la semana (lunes a domingo) en una vista de calendario.
+- Lista todos los trabajadores con su contador de horas semanales configurables.
+- Permite arrastrar trabajadores a los días para asignarles turnos.
+- Calcula automáticamente las horas restantes por trabajador.
+- Soporta jornadas partidas (puedes asignar más de una vez al mismo día).
+- Las semanas pueden guardarse y programarse por adelantado.
+- Soporte multiidioma (desactivado temporalmente).
+- Diseño adaptado a escritorio por ahora.
+
+## 🧱 Tech stack
+
+- Next.js 14 App Router (TypeScript)
+- TailwindCSS
+- Drag & Drop nativo
+- `next-intl` (desactivado de momento)
+
+## 🛠️ Estado actual
+
+- [x] Estructura inicial del proyecto
+- [x] Diseño base de la vista semanal y trabajadores
+- [x] Drag & Drop funcional
+- [ ] Cálculo de horas restantes por trabajador
+- [ ] Guardado por semana (temporalmente en JSON)
+- [ ] Backend para persistencia
+- [ ] Warnings y validaciones
+- [ ] Modo responsive
+
+## 🧑‍💻 Instalación local
 
 ```bash
-npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
+npm install
+npm dev
 ```
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+## ✨ Próximos pasos
 
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
+- Mejora visual del calendario
 
-This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
+- Soporte de edición por día y hora
 
-## Learn More
+- Exportación / impresión
 
-To learn more about Next.js, take a look at the following resources:
+- Roles de usuario
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+- Panel de administrador
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
-
-## Deploy on Vercel
-
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
-
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
