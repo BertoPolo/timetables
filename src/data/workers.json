@@ -1,0 +1,14 @@
+[
+  { "id": "1", "name": "Alice", "weeklyHours": 40, "assignedHours": 0 },
+  { "id": "2", "name": "Bob", "weeklyHours": 30, "assignedHours": 0 },
+  { "id": "3", "name": "Jason", "weeklyHours": 40, "assignedHours": 0 },
+  { "id": "4", "name": "Sarah", "weeklyHours": 20, "assignedHours": 0 },
+  { "id": "5", "name": "Tom", "weeklyHours": 35, "assignedHours": 0 },
+  { "id": "6", "name": "Emily", "weeklyHours": 25, "assignedHours": 0 },
+  { "id": "7", "name": "David", "weeklyHours": 40, "assignedHours": 0 },
+  { "id": "8", "name": "Laura", "weeklyHours": 30, "assignedHours": 0 },
+  { "id": "9", "name": "Michael", "weeklyHours": 40, "assignedHours": 0 },
+  { "id": "10", "name": "Sophia", "weeklyHours": 20, "assignedHours": 0 },
+  { "id": "11", "name": "James", "weeklyHours": 35, "assignedHours": 0 },
+  { "id": "12", "name": "Olivia", "weeklyHours": 25, "assignedHours": 0 }
+]
