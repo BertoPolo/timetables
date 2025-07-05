@@ -1,5 +1,5 @@
 {
-  "name": "timetables",
+  "name": "timeloop",
   "version": "0.1.0",
   "private": true,
   "scripts": {
@@ -33,4 +33,3 @@
     "typescript": "5"
   }
 }
-

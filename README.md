@@ -1,4 +1,4 @@
-# 🗓️ Weekly Scheduler App
+# 🗓️ Timeloop App
 
 Una aplicación para gestionar los horarios semanales de los trabajadores de forma visual y eficiente. El objetivo es dejar atrás las hojas de Excel y permitir una planificación más clara, rápida y centralizada.
 

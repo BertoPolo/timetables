@@ -17,7 +17,7 @@ const Sidebar = ({ workers }: Props) => {
           <li
             key={worker.id}
             draggable
-            onDragStart={(e) => handleDragStart(e, worker.id)}
+            onDragStart={(e) => handleDragStart(e, worker.name)}
             className="cursor-move p-2 rounded bg-white shadow text-sm"
           >
             {worker.name} <span className="text-gray-500">({worker.weeklyHours}h)</span>
